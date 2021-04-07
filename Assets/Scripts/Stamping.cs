@@ -6,7 +6,7 @@ using UnityEngine;
 using UnityEditor;
 using UnityEngine.AI;
 using Random = UnityEngine.Random;
-// ReSharper disable All
+
 
 [ExecuteInEditMode]
 public class Stamping : MonoBehaviour

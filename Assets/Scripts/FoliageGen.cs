@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.CompilerServices;
 using UnityEngine;
-// ReSharper disable All
+
 
 public class FoliageGen : MonoBehaviour
 {

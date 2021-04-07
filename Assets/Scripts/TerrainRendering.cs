@@ -11,10 +11,6 @@ public class TerrainRendering : MonoBehaviour
     public GameObject terrainParent;
     public GameObject meshPrefab;
 
-    
-
-
-
     public void DrawMesh(List<MeshData> meshDatas, float meshScale, Material shaderMaterial)
     {
         var tempList = terrainParent.transform.Cast<Transform>().ToList();

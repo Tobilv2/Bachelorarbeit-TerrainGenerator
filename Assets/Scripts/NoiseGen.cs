@@ -3,7 +3,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-// ReSharper disable All
 
 public static class NoiseGen
 {
@@ -13,7 +12,6 @@ public static class NoiseGen
         float persistance, float lacunarity, Vector2 offset)
     {
         float[,] noiseMap = new float[width, height];
-
         System.Random prng = new System.Random(seed);
         Vector2[] octaveOffsets = new Vector2[octaves];
         for (int i = 0; i < octaves; i++)

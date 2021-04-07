@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-// ReSharper disable All
+
 public static class MeshGen
 {
     public static MeshData GenerateTerrainMesh(float[,] heightMap, float heightMulti, AnimationCurve heightCurve, Vector2 chunkCoords, TerrainType[] regions)
